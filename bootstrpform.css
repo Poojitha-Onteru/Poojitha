@@ -1,0 +1,23 @@
+fieldset{
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+span{
+    background-color: lightgrey;
+    border-style:inset;
+}
+.branch{
+    margin-top: -5px;
+}
+label{
+    display: inline;
+}
+button{
+    margin-left: 100px;
+
+}

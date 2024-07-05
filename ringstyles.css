@@ -1,0 +1,241 @@
+body::-webkit-scrollbar{
+    width: 0;
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)100%,rgba(0,0,0,0.5)50%),url(nature.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin-trim: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    margin-left: 25px;
+}
+.menu{
+    width:400px;      
+    float: left;     
+    height:70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color:aquamarine;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4ms ease-in;
+}
+ul li a:hover{
+    color:orange;
+
+}
+.searchbar{
+    width:300px;
+    float:right;
+    margin-top: 15px;
+}
+.search{
+    font-family:'Times New Roman', Times, serif;
+    width: 200px;
+    height: 30px;
+    background: rgb(48, 162, 151);
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.button{
+    font-family:'Times New Roman', Times, serif;
+    height: 30px;
+    width: 75px;
+    background: rgb(48, 162, 151);
+    border: 2px solid black;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    margin-left: -4.1px;
+    border-left: none;
+}
+.button:focus{
+    outline: none;
+
+}
+.search:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .par{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: ;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    margin-top: 3%;
+    letter-spacing: 2px;
+}
+.content .intrest{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin:auto;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .intrest a{
+    text-decoration: none;
+    color: #000;
+    transition: .4s ease;
+}
+.intrest:hover{
+    background: #fff;
+}
+.content span{
+    color: orange;
+    font-size: 50px;
+}
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding:25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 3.5px;
+    padding: 5px;
+}
+.form input{
+    width: 210px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid none;
+    margin-bottom: 2%;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 215px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+    transition: .4s ease; 
+}
+.btnn a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+.link{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btnn a:hover{
+    transition: .4s ease;
+    color: orange;
+}
+.social-icon a{
+    margin-left: 15px;
+    margin-top: -10px;
+    padding-left: 20px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    color:orange;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.social-icon i:hover{
+    color: aqua;
+    transition: 0.4s ease;
+}
